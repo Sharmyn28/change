@@ -1,0 +1,16 @@
+@import 'variables';
+
+#homeView--content{
+    height: 100vh;
+}
+
+#home{
+    /*width: 100%;*/
+    height: 100vh;
+    /*background-image: url(../../img/background/backgroundInitial.png);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $main-blue;
+}
+

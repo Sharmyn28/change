@@ -1,0 +1,11 @@
+@import 'menu';
+@import 'contact';
+@import 'Home';
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+//fonts
+$main-font: 'Montserrat';
+
+body{
+    font-family: $main-font;
+}
