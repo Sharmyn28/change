@@ -1651,7 +1651,8 @@ div.wpcf7 input[type="file"]:disabled {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #18469D; }
+  background-color: #18469D;
+  color: #ffffff; }
 
 body {
   font-family: "Montserrat"; }

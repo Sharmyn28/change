@@ -33,7 +33,7 @@ const Contact = () => {
 
 const Menu = () => {
     return (
-        <Col md={1} lg={1} id='sidenav'>
+        <Col md={1} lg={1}  id='sidenav'>
             <nav id='menu' className='sidenav'>
                 <div className='logo'>
                     <Image src={logo} circle/>
