@@ -20,10 +20,15 @@
 
 }
 
+@media all and (min-width: 768px) { 
+    #sidenav{
+        height: 100vh;
+        background-color: $white;
+    }
+}
 //Menu
 #sidenav {  
-
-    /*position: absolute;*/
+        /*position: absolute;*/
     @extend %clearfix;
     z-index: 103;
 
@@ -110,7 +115,7 @@
         .chat-btn-label {
             display: none; 
         }
-    }   
+    }
 }
 
 @media all and (max-width: 767px){
@@ -125,7 +130,7 @@
             stroke: #ffffff;
         }
         
-    } 
+    }
 }
 
     .sidenav {
