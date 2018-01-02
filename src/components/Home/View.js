@@ -28,17 +28,28 @@ const InitalSection = () => {
     )
 }
 
+const Circle = ({name}) => {
+    return(
+        <div className='about--story__circle '>
+            <i className={name} ></i>
+        </div>
+    )
+}
+
 const Story = () => {
     return (
         <section>
             <Col lg={4} md={4} sm={4} xs={4} >
-                <p> Capacitación </p>
+                {/*<p> Capacitación </p>*/}
+                <Circle name="fa fa-wrench"/>
             </Col>
             <Col lg={4} md={4} sm={4} xs={4}>
-                <p> Diseño Curricular </p>
+                {/*<p> Diseño Curricular </p>*/}
+                <Circle name='fa fa-pencil-square-o'/>
             </Col>
             <Col lg={4} md={4} sm={4} xs={4}>
-                <p> Asesoría Educativa </p>
+                {/*<p> Asesoría Educativa </p>*/}
+                <Circle name='fa fa-commenting-o'/>
             </Col>
         </section>
     )

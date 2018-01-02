@@ -16,3 +16,13 @@
     color: $white;
 }
 
+.about--story__circle{
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center;
+    font-size:30px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: $green;
+}

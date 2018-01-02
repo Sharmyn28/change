@@ -1647,7 +1647,7 @@ div.wpcf7 input[type="file"]:disabled {
 
 #homeView--content {
   height: 100vh;
-  background-color: #18469D; }
+  background-color: #005E9B; }
 
 #home {
   /*width: 100%;*/
@@ -1656,8 +1656,18 @@ div.wpcf7 input[type="file"]:disabled {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #18469D;
+  background-color: #005E9B;
   color: #ffffff; }
+
+.about--story__circle {
+  height: 100px;
+  width: 100px;
+  display: table-cell;
+  text-align: center;
+  font-size: 30px;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: #A1C254; }
 
 body {
   font-family: "Montserrat"; }
