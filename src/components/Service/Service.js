@@ -6,7 +6,7 @@ import { connect } from "redux-zero/react";
 
 const ServiceContent = ({ showModal1, showModal2, showModal3 }) => {
     return (
-        <Col md={11} lg={11} sm={10} xs={12} className='service'>
+        <Col md={11} lg={11} sm={10} xs={12} className='service wrap'>
             <div className="container--service">
                 <h3> Todos nuestros servicios necesitan de una participación activa de nuestros clientes. </h3>
                 <FirstCard showModal1={showModal1} />

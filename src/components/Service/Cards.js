@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Image } from "react-bootstrap";
+import {  Image } from "react-bootstrap";
 import ExtraInfo from "./ModalInfo";
 import { open1, open2, open3, close1, close2, close3 } from "../../actions/actions";
 import laboratoria from "../../img/icons/success/laboratoria100.png";
@@ -10,8 +10,9 @@ import elise from "../../img/icons/success/elise100.png";
 
 export const FirstCard = ({ showModal1 }) => {
     return (
-        <Col lg={4} md={4} sm={12} xs={12}>
+        
             <section className="card btn-pink--BG">
+                {/*<Col lg={4} md={4} sm={12} xs={12}>*/}
                 <div className="card_inner">
                     <div className="card_inner__circle">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/rocket.png" alt='rocket' />
@@ -46,18 +47,20 @@ export const FirstCard = ({ showModal1 }) => {
                                 </div>
                             }
                             button={'pink--BG'}
+                            color={'pink-text'}
                         />
                     </div>
                 </div>
             </section>
-        </Col>
+        
     )
 }
 
 export const SecondCard = ({ showModal2 }) => {
     return (
-        <Col lg={4} md={4} sm={12} xs={12}>
+       
             <section className="card btn-blue--BG">
+            {/*<Col lg={4} md={4} sm={12} xs={12}>*/}
                 <div className="card_inner">
                     <div className="card_inner__circle">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/cog.png" alt='cog' />
@@ -66,7 +69,7 @@ export const SecondCard = ({ showModal2 }) => {
                         <img src="http://4vector.com/i/free-vector-modern-city_093317_bluecity.jpg" alt='bluecity' />
                     </div>
                     <div className="card_inner__content">
-                        <div className="title">Inglés para propósitos específicos</div>
+                        <div className="title2">Inglés para <span className="title3">propósitos específicos</span></div>
                         {/*<div className="price">$49.99</div>*/}
                         <div className="text">Creamos programas de inglés a medidad. Tus objetivos son el centro del curso.
                         </div>
@@ -95,18 +98,20 @@ export const SecondCard = ({ showModal2 }) => {
                                 </div>
                             }
                             button={'blue--BG'}
+                            color={'blue-text'}
                         />
                     </div>
                 </div>
             </section>
-        </Col>
+        
     )
 }
 
 export const ThirdCard = ({ showModal3 }) => {
     return (
-        <Col lg={4} md={4} sm={12} xs={12}>
+        
             <section className="card btn-green--BG">
+            {/*<Col lg={4} md={4} sm={12} xs={12}>*/}
                 <div className="card_inner">
                     <div className="card_inner__circle">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/paperplane.png" alt='plane' />
@@ -141,10 +146,11 @@ export const ThirdCard = ({ showModal3 }) => {
                                 </div>
                             }
                             button={'green--BG'}
+                            color={'green-text'}
                         />
                     </div>
                 </div>
             </section>
-        </Col>
+        
     )
 }

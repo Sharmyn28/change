@@ -2,10 +2,10 @@ import React from "react";
 import { Modal, Button } from "react-bootstrap";
 //import { close, open } from "../../actions/actions";
 
-const ExtraInfo = ({ showModal, open, close, backgroundColor ,title, info, successCase, button }) => {
+const ExtraInfo = ({ showModal, open, close, backgroundColor ,title, info, successCase, button, color }) => {
     return(
-        <div className='bubble--container' >
-            <Button onClick={open} className='bubble--image'> Ver más </Button>
+        <div>
+            <Button onClick={open} bsStyle={'white--BG'} className={color} > Ver más </Button>
 
             <Modal show={showModal} onHide={close}>
                 <Modal.Header closeButton className={backgroundColor} >

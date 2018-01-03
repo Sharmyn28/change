@@ -64,10 +64,15 @@ body{
     background-color: $pink;
 }
 
+.btn-white--BG{
+    background-color: $white;
+}
 
 .wrap{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;
+    vertical-align: middle;
+    align-content: space-around;*/
 }

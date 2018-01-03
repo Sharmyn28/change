@@ -1673,21 +1673,20 @@ div.wpcf7 input[type="file"]:disabled {
   height: 100vh;
   background-color: #A1C254; }
 
-@media all and (max-width: 767px) {
-  .service .container--service {
-    top: 800px; }
-    .service .container--service .card {
-      height: 50%; } }
+.service {
+  background-color: #A1C254; }
+
 .service a {
   text-decoration: none;
   color: white; }
 .service .container--service {
   /*width:938px;*/
-  position: absolute;
-  top: 300px;
-  left: 30px;
-  right: 0;
-  transform: translateY(-50%);
+    /*position:absolute;
+    top:300px;
+    left:30px;
+    right:0;
+
+    transform:translateY(-50%);*/
   margin: auto; }
   .service .container--service .card {
     margin: 0 auto;
@@ -1701,7 +1700,7 @@ div.wpcf7 input[type="file"]:disabled {
     cursor: pointer;
     opacity: 0.5;
     box-shadow: 0px 17px 46px -10px #777777;
-    height: 470px;
+    height: 360px;
     border-radius: 14px;
     /*&:nth-of-type(1){
       background: -webkit-linear-gradient(45deg, #c96881 0%,#f7b695 100%);
@@ -1721,6 +1720,37 @@ div.wpcf7 input[type="file"]:disabled {
       animation: intro 1s 0.2s forwards; }
     .service .container--service .card:nth-of-type(3) {
       animation: intro 1s 0.3s forwards; }
+    @media screen and (max-width: 768px) {
+      .service .container--service .card {
+        height: 250px !important;
+        width: 250px !important; }
+        .service .container--service .card .card_inner__content .text {
+          content: '';
+          color: transparent; }
+        .service .container--service .card .card_inner__content .title {
+          font-weight: 800;
+          text-transform: uppercase;
+          margin-top: 35px;
+          font-size: 18px;
+          letter-spacing: 1px; }
+        .service .container--service .card .card_inner__content .title2 {
+          font-weight: 800;
+          text-transform: uppercase;
+          margin-top: 22px;
+          font-size: 15px;
+          letter-spacing: 1px; }
+        .service .container--service .card .card_inner__content .title3 {
+          font-weight: 800;
+          text-transform: uppercase;
+          margin-top: 20px;
+          font-size: 14px;
+          letter-spacing: 1px; }
+        .service .container--service .card .card_inner__content__cta {
+          width: 80px; }
+          .service .container--service .card .card_inner__content__cta button {
+            padding: 5px;
+            font-size: 12px;
+            border-radius: 4px; } }
     .service .container--service .card:hover .card_inner__header img {
       left: -50px;
       transition: all 3.4s linear; }
@@ -1773,7 +1803,7 @@ div.wpcf7 input[type="file"]:disabled {
         left: 0;
         transition: all 0.1s linear; }
     .service .container--service .card_inner__content {
-      padding: 20px; }
+      padding: 12px; }
       .service .container--service .card_inner__content .price {
         color: white;
         font-weight: 800;
@@ -1783,7 +1813,7 @@ div.wpcf7 input[type="file"]:disabled {
         color: rgba(255, 255, 255, 0.6);
         font-weight: 100;
         margin-top: 20px;
-        font-size: 13px;
+        font-size: 14px;
         line-height: 16px; }
       .service .container--service .card_inner__content .title {
         font-weight: 800;
@@ -1792,20 +1822,32 @@ div.wpcf7 input[type="file"]:disabled {
         margin-top: 40px;
         font-size: 25px;
         letter-spacing: 1px; }
+      .service .container--service .card_inner__content .title2 {
+        font-weight: 800;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.64);
+        margin-top: 36px;
+        font-size: 22px;
+        letter-spacing: 0.8px; }
+      .service .container--service .card_inner__content .title3 {
+        font-weight: 800;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.64);
+        margin-top: 32px;
+        font-size: 15px;
+        letter-spacing: 0.8px; }
     .service .container--service .card_inner__cta {
       position: absolute;
       bottom: -24px;
       left: 0;
       right: 0;
       margin: auto;
-      width: 200px; }
+      width: 120px; }
       .service .container--service .card_inner__cta button {
         padding: 16px;
-        box-shadow: 0px 0px 40px 4px #F76583, 0px 0px 0px 2px rgba(255, 255, 255, 0.19) inset;
         width: 100%;
-        background: -webkit-linear-gradient(-90deg, #fe5e7d 0%, #e5375b 100%);
+        /*background: -webkit-linear-gradient(-90deg, #fe5e7d 0%,#e5375b 100%);*/
         border: none;
-        color: white;
         outline: none;
         font-size: 20px;
         border-radius: 6px;
@@ -1814,8 +1856,6 @@ div.wpcf7 input[type="file"]:disabled {
         transition: box-shadow .3s, transform .3s .1s; }
         .service .container--service .card_inner__cta button span {
           text-shadow: 0px 4px 18px #BA3F57; }
-        .service .container--service .card_inner__cta button:hover {
-          box-shadow: 0px 0px 60px 8px #F76583, 0px 0px 0px 2px rgba(255, 255, 255, 0.19) inset; }
 
 @keyframes launch {
   0% {
@@ -1900,10 +1940,15 @@ body {
 .btn-pink--BG {
   background-color: #D46460; }
 
+.btn-white--BG {
+  background-color: #ffffff; }
+
 .wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; }
+  /*align-items: center;
+  vertical-align: middle;
+  align-content: space-around;*/ }
 
 /*# sourceMappingURL=style.css.map */
