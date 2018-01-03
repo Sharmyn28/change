@@ -1858,4 +1858,16 @@ body {
 .center {
   align-items: center; }
 
+.upperCase {
+  text-transform: uppercase; }
+
+.green-text {
+  color: #A1C254; }
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
 /*# sourceMappingURL=style.css.map */

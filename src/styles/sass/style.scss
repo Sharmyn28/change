@@ -1,3 +1,4 @@
+@import 'variables';
 @import 'menu';
 @import 'contact';
 @import 'Home';
@@ -16,5 +17,20 @@ body{
 }
 
 .center{
+    align-items: center;
+}
+
+.upperCase{
+    text-transform: uppercase;
+}
+
+.green-text{
+    color: $green;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
 }
