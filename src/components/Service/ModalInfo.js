@@ -2,14 +2,14 @@ import React from "react";
 import { Modal, Button } from "react-bootstrap";
 //import { close, open } from "../../actions/actions";
 
-const ExtraInfo = ({ showModal, open, close, title, info, successCase }) => {
+const ExtraInfo = ({ showModal, open, close, backgroundColor ,title, info, successCase, button }) => {
     return(
         <div className='bubble--container' >
             <Button onClick={open} className='bubble--image'> Ver más </Button>
 
             <Modal show={showModal} onHide={close}>
-                <Modal.Header closeButton>
-                <Modal.Title><h3><strong> {title} </strong></h3></Modal.Title>
+                <Modal.Header closeButton className={backgroundColor} >
+                    <Modal.Title><strong className='upperCase white-text bold'> {title} </strong></Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     {info}
@@ -18,7 +18,7 @@ const ExtraInfo = ({ showModal, open, close, title, info, successCase }) => {
                     <div> {successCase} </div>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button onClick={close}>Close</Button>
+                    <Button onClick={close} bsStyle={button} className='white-text bold' >Close</Button>
                 </Modal.Footer>
             </Modal>
         </div>

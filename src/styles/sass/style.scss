@@ -20,6 +20,10 @@ body{
     align-items: center;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .upperCase{
     text-transform: uppercase;
 }
@@ -27,6 +31,39 @@ body{
 .green-text{
     color: $green;
 }
+
+.yellow-text{
+    color: $yellow;
+}
+
+.blue-text{
+    color: $main-blue;
+}
+
+.pink-text{
+    color: $pink
+}
+
+.white-text{
+    color: $white;
+}
+
+.btn-green--BG{
+    background-color: $green;
+}
+
+.btn-yellow--BG{
+    background-color: $yellow;
+}
+
+.btn-blue--BG{
+    background-color: $main-blue;
+}
+
+.btn-pink--BG{
+    background-color: $pink;
+}
+
 
 .wrap{
     display: flex;

@@ -1669,6 +1669,10 @@ div.wpcf7 input[type="file"]:disabled {
   border-radius: 50%;
   background: #A1C254; }
 
+#serviceView--content {
+  height: 100vh;
+  background-color: #A1C254; }
+
 @media all and (max-width: 767px) {
   .service .container--service {
     top: 800px; }
@@ -1698,19 +1702,25 @@ div.wpcf7 input[type="file"]:disabled {
     opacity: 0.5;
     box-shadow: 0px 17px 46px -10px #777777;
     height: 470px;
-    border-radius: 14px; }
+    border-radius: 14px;
+    /*&:nth-of-type(1){
+      background: -webkit-linear-gradient(45deg, #c96881 0%,#f7b695 100%);
+      //background: -moz-linear-gradient(45deg, #c96881 0%,#f7b695 100%);
+    }
+    &:nth-of-type(2){
+      background: -webkit-linear-gradient(45deg, #6B6ECC 0%, #89BFDF 100%);
+      //background: -moz-linear-gradient(45deg, #6B6ECC 0%, #89BFDF 100%);
+    }
+    &:nth-of-type(3){
+      background: -webkit-linear-gradient(45deg, #81B77B 0%, #A3E3C3 100%);
+      //background: -moz-linear-gradient(45deg, #81B77B 0%, #A3E3C3 100%);
+    }*/ }
     .service .container--service .card:nth-of-type(1) {
       animation: intro 1s 0.1s forwards; }
     .service .container--service .card:nth-of-type(2) {
       animation: intro 1s 0.2s forwards; }
     .service .container--service .card:nth-of-type(3) {
       animation: intro 1s 0.3s forwards; }
-    .service .container--service .card:nth-of-type(1) {
-      background: -webkit-linear-gradient(45deg, #c96881 0%, #f7b695 100%); }
-    .service .container--service .card:nth-of-type(2) {
-      background: -webkit-linear-gradient(45deg, #6B6ECC 0%, #89BFDF 100%); }
-    .service .container--service .card:nth-of-type(3) {
-      background: -webkit-linear-gradient(45deg, #81B77B 0%, #A3E3C3 100%); }
     .service .container--service .card:hover .card_inner__header img {
       left: -50px;
       transition: all 3.4s linear; }
@@ -1795,7 +1805,6 @@ div.wpcf7 input[type="file"]:disabled {
         width: 100%;
         background: -webkit-linear-gradient(-90deg, #fe5e7d 0%, #e5375b 100%);
         border: none;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
         color: white;
         outline: none;
         font-size: 20px;
@@ -1858,11 +1867,38 @@ body {
 .center {
   align-items: center; }
 
+.bold {
+  font-weight: bold; }
+
 .upperCase {
   text-transform: uppercase; }
 
 .green-text {
   color: #A1C254; }
+
+.yellow-text {
+  color: #FDC53A; }
+
+.blue-text {
+  color: #005E9B; }
+
+.pink-text {
+  color: #D46460; }
+
+.white-text {
+  color: #ffffff; }
+
+.btn-green--BG {
+  background-color: #A1C254; }
+
+.btn-yellow--BG {
+  background-color: #FDC53A; }
+
+.btn-blue--BG {
+  background-color: #005E9B; }
+
+.btn-pink--BG {
+  background-color: #D46460; }
 
 .wrap {
   display: flex;

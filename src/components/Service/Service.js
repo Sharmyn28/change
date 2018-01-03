@@ -8,7 +8,7 @@ const ServiceContent = ({ showModal1, showModal2, showModal3 }) => {
     return (
         <Col md={11} lg={11} sm={10} xs={12} className='service'>
             <div className="container--service">
-                <h2> Todos nuestros servicios necesitan de una participación activa de nuestros clientes. </h2>
+                <h3> Todos nuestros servicios necesitan de una participación activa de nuestros clientes. </h3>
                 <FirstCard showModal1={showModal1} />
                 <SecondCard showModal2={showModal2} />
                 <ThirdCard showModal3={showModal3} />                

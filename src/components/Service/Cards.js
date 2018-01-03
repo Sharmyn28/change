@@ -11,7 +11,7 @@ import elise from "../../img/icons/success/elise100.png";
 export const FirstCard = ({ showModal1 }) => {
     return (
         <Col lg={4} md={4} sm={12} xs={12}>
-            <section className="card">
+            <section className="card btn-pink--BG">
                 <div className="card_inner">
                     <div className="card_inner__circle">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/rocket.png" alt='rocket' />
@@ -34,9 +34,10 @@ export const FirstCard = ({ showModal1 }) => {
                         <ExtraInfo showModal={showModal1}
                             open={() => open1()}
                             close={() => close1()}
+                            backgroundColor={'btn-pink--BG'}
                             title={'Capacitación'}
                             info={
-                                <p className='justify'>Nuestro programa de capacitación de docentes se basa en la técnica de <strong className='upperCase green-text'>Class Shadowing</strong>, en la cual el participante del entrenamiento toma parte activa del dictado de clases bajo la <strong className='upperCase green-text'>guía</strong> de un docente principal. Además, trabajamos con centros educativos para identificar sus <strong className='upperCase green-text'>objetivos estratégicos</strong> y sus <strong className='upperCase green-text'>necesidades</strong> y así diseñar programas de entrenamiento para sus docentes.</p>
+                                <p className='justify'>Nuestro programa de capacitación de docentes se basa en la técnica de <strong className='upperCase pink-text'>Class Shadowing</strong>, en la cual el participante del entrenamiento toma parte activa del dictado de clases bajo la <strong className='upperCase pink-text'>guía</strong> de un docente principal. Además, trabajamos con centros educativos para identificar sus <strong className='upperCase pink-text'>objetivos estratégicos</strong> y sus <strong className='upperCase pink-text'>necesidades</strong> y así diseñar programas de entrenamiento para sus docentes.</p>
                             }
                             successCase={
                                 <div className='wrap'>
@@ -44,6 +45,7 @@ export const FirstCard = ({ showModal1 }) => {
                                     
                                 </div>
                             }
+                            button={'pink--BG'}
                         />
                     </div>
                 </div>
@@ -55,7 +57,7 @@ export const FirstCard = ({ showModal1 }) => {
 export const SecondCard = ({ showModal2 }) => {
     return (
         <Col lg={4} md={4} sm={12} xs={12}>
-            <section className="card">
+            <section className="card btn-blue--BG">
                 <div className="card_inner">
                     <div className="card_inner__circle">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/cog.png" alt='cog' />
@@ -80,9 +82,10 @@ export const SecondCard = ({ showModal2 }) => {
                         <ExtraInfo showModal={showModal2}
                             open={() => open2()}
                             close={() => close2()}
+                            backgroundColor={'btn-blue--BG'}
                             title={'Inglés para propósitos específicos'}
                             info={
-                                <p>Trabajamos de la mano con nuestros clientes para conocer sus <strong>objetivos</strong> y su <strong>trabajo</strong>. Nos basamos en la información recolectada para diseñar <strong>cursos</strong> de inglés <strong>a la medida</strong> que se alineen con los objetivos personales y profesionales de los participantes del programa.</p>
+                                <p className='justify'>Trabajamos de la mano con nuestros clientes para conocer sus <strong className='upperCase blue-text'>objetivos</strong> y su <strong className='upperCase blue-text'>trabajo</strong>. Nos basamos en la información recolectada para diseñar <strong className='upperCase blue-text'>cursos</strong> de inglés <strong className='upperCase blue-text'>a la medida</strong> que se alineen con los objetivos personales y profesionales de los participantes del programa.</p>
                             }
                             successCase={
                                 <div className='wrap'>
@@ -91,6 +94,7 @@ export const SecondCard = ({ showModal2 }) => {
                                     <a href="https://www.facebook.com/lamaisondelisearequipa/" target="_blank" rel='noopener noreferrer' ><Image src={elise} circle /></a>
                                 </div>
                             }
+                            button={'blue--BG'}
                         />
                     </div>
                 </div>
@@ -102,7 +106,7 @@ export const SecondCard = ({ showModal2 }) => {
 export const ThirdCard = ({ showModal3 }) => {
     return (
         <Col lg={4} md={4} sm={12} xs={12}>
-            <section className="card">
+            <section className="card btn-green--BG">
                 <div className="card_inner">
                     <div className="card_inner__circle">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/paperplane.png" alt='plane' />
@@ -126,15 +130,17 @@ export const ThirdCard = ({ showModal3 }) => {
                         <ExtraInfo showModal={showModal3}
                             open={() => open3()}
                             close={() => close3()}
+                            backgroundColor={'btn-green--BG'}
                             title={'English Club'}
                             info={
-                                <p>Ofrecemos programas de inglés en <strong>centros educativos</strong> luego del horario de clases. Trabajamos con jardines y colegios del estado en los llamados <strong>After School Programs</strong>. El concepto detrás de estos clubes de inmersión de inglés se basa en principios de <strong>aprendizaje ágiles</strong> y basados en proyectos.</p>
+                                <p className='justify'>Ofrecemos programas de inglés en <strong className='upperCase green-text'>centros educativos</strong> luego del horario de clases. Trabajamos con jardines y colegios del estado en los llamados <strong className='upperCase green-text'>After School Programs</strong>. El concepto detrás de estos clubes de inmersión de inglés se basa en principios de <strong className='upperCase green-text'>aprendizaje ágiles</strong> y basados en proyectos.</p>
                             }
                             successCase={
                                 <div className='wrap'>
                                     <a href="https://www.facebook.com/SonrisasCunaJardin/" target="_blank" rel='noopener noreferrer' ><Image src={sonrisas} circle /></a>
                                 </div>
                             }
+                            button={'green--BG'}
                         />
                     </div>
                 </div>
