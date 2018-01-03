@@ -1,7 +1,7 @@
 import createStore from "redux-zero";
 
 const initialState = {
-    selectedSection: 1
+    showModal: false
 }
 
 const store = createStore(initialState);
