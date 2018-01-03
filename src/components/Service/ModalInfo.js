@@ -1,22 +1,21 @@
 import React from "react";
 import { Modal, Button } from "react-bootstrap";
-import { close, open } from "../../actions/actions";
+//import { close, open } from "../../actions/actions";
 
-const ExtraInfo = ({ showModal }) => {
+const ExtraInfo = ({ showModal, open, close, title, info }) => {
     return(
         <div className='bubble--container' >
-            <Button onClick={() => open()} className='bubble--image' />
+            <Button onClick={open} className='bubble--image'> Ver más </Button>
 
-            <Modal show={showModal} onHide={() => close()}>
+            <Modal show={showModal} onHide={close}>
                 <Modal.Header closeButton>
-                <Modal.Title>Aqui titulooooo</Modal.Title>
+                <Modal.Title><h3><strong> {title} </strong></h3></Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <p> Aqui infooooooo </p>
-                    <p>Praesent commodo cursus magna, oreet rutrum faucibus dolor auctor.</p>
+                    <p>{info}</p>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button onClick={() => close()}>Close</Button>
+                    <Button onClick={close}>Close</Button>
                 </Modal.Footer>
             </Modal>
         </div>
