@@ -73,7 +73,7 @@ const Mission = () => {
 
 const View = () => {
     return (
-        <Col md={11} lg={11} sm={10} xs={12} id='home'>
+        <Col  id='home'>
             <Initial />
             <h3>Un programa educativo debe ser flexible y adaptable</h3>
             <InitalSection />
