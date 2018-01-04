@@ -1,11 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Hamburger = () => {
     return(
         <div className="fixed-top-bar">
-            <a href="/index.html"><div className="mobile-logo"></div></a>
+            <NavLink to="/home"><div className="mobile-logo"></div></NavLink>
             <div className="menu-btn">
-                <a href="#" className="openbtn">
+                <a  className="openbtn">
                     <svg className="menu-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18">
                         <path id="XMLID_30_" className="line line-one st0" d="M0 1h20"></path>
                         <path id="XMLID_21_" className="line line-two st0" d="M0 9h20"></path>
