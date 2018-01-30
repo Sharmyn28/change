@@ -1,17 +1,16 @@
 {
-  "main.css": "static/css/main.5e6216c4.css",
-  "main.css.map": "static/css/main.5e6216c4.css.map",
-  "main.js": "static/js/main.ff213f03.js",
-  "main.js.map": "static/js/main.ff213f03.js.map",
-  "static\\media\\back400.png": "static/media/back400.e7b904b5.png",
-  "static\\media\\change630.jpg": "static/media/change630.c0f24434.jpg",
+  "main.css": "static/css/main.95333c1d.css",
+  "main.css.map": "static/css/main.95333c1d.css.map",
+  "main.js": "static/js/main.12db1f3c.js",
+  "main.js.map": "static/js/main.12db1f3c.js.map",
   "static\\media\\changers 1.png": "static/media/changers 1.4fd6fdd3.png",
   "static\\media\\changers 2.png": "static/media/changers 2.29edfd4d.png",
   "static\\media\\changers 3.png": "static/media/changers 3.9a94ef26.png",
   "static\\media\\changers 4.png": "static/media/changers 4.032306bc.png",
   "static\\media\\changers 5.png": "static/media/changers 5.77aad79a.png",
-  "static\\media\\educacion250x125.png": "static/media/educacion250x125.5cdd91f9.png",
-  "static\\media\\group630.jpg": "static/media/group630.2c70962c.jpg",
   "static\\media\\icon services_01.png": "static/media/icon services_01.18f21170.png",
-  "static\\media\\programming630.jpg": "static/media/programming630.5b3c131b.jpg"
+  "static\\media\\imagen home_01.png": "static/media/imagen home_01.591a90f0.png",
+  "static\\media\\imagen home_02.png": "static/media/imagen home_02.63f61739.png",
+  "static\\media\\imagen home_03.png": "static/media/imagen home_03.7a351334.png",
+  "static\\media\\imagen home_04.png": "static/media/imagen home_04.38da80fd.png"
 }
